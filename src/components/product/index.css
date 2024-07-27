@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+.prod-full{
+    background-image: url('./img/3484.jpg');
+    background-size: cover;
+}
+.for-sweet{
+    font-family: "Yeseva One", serif;
+    color: rgb(255, 255, 208);
+    text-shadow: 0px 0px 20px gold;
+    background-color: black;
+}
+.sweet-slide-img{
+    height: 300px;
+    width: 65%;
+    border-radius: 20px;
+}
+ .sweet-slide{
+    border: 2px solid gold;
+    border-radius: 30px;
+   
+    background-color: white;
+}
+.sweet-slide h1{
+    font-family: "Rufina", serif;
+    color: brown;
+    
+}
+.sweet-slide p{
+    font-family: "Yeseva One", serif;
+    color: rgb(22, 19, 1);
+}
+.snacks-slide-img{
+   
+    width: 45%;
+    border-radius: 20px;
+}
+ .snacks-slide{
+    border: 2px solid gold;
+    border-radius: 30px;
+   height: 60vh;
+    background-color: white;
+}
+.snacks-slide h1{
+    font-family: "Rufina", serif;
+    color: brown;
+    
+}
+.snacks-slide h4{
+    font-family: "Rufina", serif;
+    color: brown;
+    text-decoration: underline;
+    
+}
+.snacks-slide p{
+    font-family: "Yeseva One", serif;
+    color: rgb(22, 19, 1);
+}

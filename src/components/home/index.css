@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+.home-full{
+  
+    background-size: cover;
+}
+.caro{
+   
+    background-image: url('./img/carobg.jpg');
+    background-size: cover;
+    height: 65vh;
+    border: 2px solid white;
+}
+.caro-img{
+    font-family: "Rufina", serif;
+
+    color: brown;
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: gold;
+    height: 60vh;
+    width: 50vh; 
+    border: 2px solid rgb(141, 8, 8);
+    box-shadow: 5px 5px 30px ;
+    border-radius: 30px;
+}
+.caro-img h1{
+    font-family: "Yeseva One", serif;
+    text-decoration: underline;
+}
+.caro-img button{
+    width: 150px;
+}
+.brandimg{
+    width: 30vh;
+    height: 30vh;
+
+}
+.brandimg img{
+    border-radius: 100px;
+}
+.brand-content{
+    background-image: url('./img/3484.jpg');
+    background-size: cover;
+}
+.brand-content h1{
+    font-family: "Yeseva One", serif;
+    font-weight: 1000;
+    text-decoration: underline;
+    font-style: italic;
+    color: rgb(255, 255, 208);
+    text-shadow: 0px 0px 20px gold;
+}
+.brand-content p{
+    font-family: "Rufina", serif;
+    color: rgb(90, 0, 0);
+   box-shadow: 0px 0px 30px gold ;
+    background-color: gold;
+    border-radius: 20px;
+    border: 2px solid brown;
+    font-size: 20px;
+opacity: 0.9;
+}
+.products{
+    background-color: black;
+    width: 50%;
+}
+.scroll-prod{
+    width: 75%;
+    height: 60vh;
+    padding: 10px;
+    display: flex;
+    overflow-x:scroll;
+}
+.prod{
+    background-image: url('./img/7213.jpg');
+    background-size: cover;
+    height: 100%;
+   
+
+    min-width: 40%;
+}
+.prod img{
+    height: 70%;
+    width: 60%; 
+    border-radius: 30px;
+    min-width: 50%;
+}
+.prod h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 3px 30px rgb(106, 5, 5);
+}
+@media only screen and (max-width: 1000px) {
+    .prod{
+      
+    
+        min-width: 90%;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .prod{
+      
+    
+        min-width: 100%;
+    }
+  }

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+.cart-full{
+    background-image: url('./img/3484.jpg');
+    background-size: cover;
+}
+.cart-card img{
+   width: 50%;
+   height: 250px;
+   border-radius: 30px;
+}
+.cart-des{
+
+    background-color: rgb(255, 255, 255);
+}
+.cart-des h1{
+    font-family: "Yeseva One", serif;
+    color: rgb(90, 0, 0);
+     
+}
+.for-cart{
+    color: rgb(255, 255, 208);
+    text-shadow: 0px 0px 20px gold;
+    font-family: "Yeseva One", serif;
+}
+.empty-cart{
+    height: 30vh;
+    background-color: white;
+    align-items: center;
+    font-family: "Rufina", serif;
+    opacity: 0.7;
+}
+.empty-cart h1{
+    opacity: 1;
+}
+    
